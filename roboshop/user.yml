@@ -4,5 +4,5 @@ metadata:
   name: user
 spec:
   containers:
-    - name: cart
+    - name: user
       image: 529080510656.dkr.ecr.us-east-1.amazonaws.com/user:2.0.0

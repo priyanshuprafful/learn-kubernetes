@@ -4,5 +4,5 @@ metadata:
   name: catalogue
 spec:
   containers:
-    - name: cart
+    - name: catalogue
       image: 529080510656.dkr.ecr.us-east-1.amazonaws.com/catalogue:2.0.0
