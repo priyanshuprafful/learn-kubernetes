@@ -9,8 +9,8 @@ spec:
     - name: cart
       image: 529080510656.dkr.ecr.us-east-1.amazonaws.com/cart:2.0.0
   initContainers:
-    - name: cart
-      image: 529080510656.dkr.ecr.us-east-1.amazonaws.com/cart:2.0.0
+    - name: aws-ssm-param-store
+      image: 529080510656.dkr.ecr.us-east-1.amazonaws.com/aws-ssm-param-store:2.0.1
 
 
 ---
