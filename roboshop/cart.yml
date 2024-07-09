@@ -4,6 +4,8 @@ metadata:
   name: cart
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::529080510656:role/ssm-for-eks
+
+
 ---
 
 
@@ -22,10 +24,6 @@ spec:
     - name: aws-ssm-param-store
       image: 529080510656.dkr.ecr.us-east-1.amazonaws.com/aws-ssm-param-store:2.0.1
       args: ["sample:prod.docdb.pass"]
-  volumes:
-    - name: params
-      emptyDir:
-        sizeLimit: 100Mi
 
 ---
 apiVersion: v1
