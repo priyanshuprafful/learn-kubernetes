@@ -7,4 +7,8 @@ spec:
   containers:
     - name: test
       image: 529080510656.dkr.ecr.us-east-1.amazonaws.com/schema-loader:2.0.3
+      #command: [ "tail", "-f", "/ ]
       args: [ "mongo", "catalogue" ]
+      env:
+        - name: env
+          value: prod
