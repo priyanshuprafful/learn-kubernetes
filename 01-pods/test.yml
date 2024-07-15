@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
     - name: test
-      image: 529080510656.dkr.ecr.us-east-1.amazonaws.com/schema-loader:2.0.0
-      args: [ "one", "2" ]
+      image: 529080510656.dkr.ecr.us-east-1.amazonaws.com/schema-loader:2.0.2
+      args: [ "mongo", "catalogue" ]
